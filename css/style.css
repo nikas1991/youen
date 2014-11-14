@@ -1,0 +1,76 @@
+﻿@charset "utf-8";
+/* CSS Document 
+by nikas 2014-4-24 nikas1991@hotmail.com*/
+body
+{ margin:0; padding:0; background-color:#FFF; height:auto;font-size:12px; font-family:"微软雅黑" Arial,sans-serif;}
+h1,h2,h3,h4,h5,h6,ul,li,dl,dt,dd,form,img,p,input,em{
+margin:0; padding:0; border:none; list-style-type:none;
+}
+a{color:#213040; font-size:14px; text-decoration:none;}
+a:hover{color:#ba2636;}
+.clearfix:after{
+content:"."; display:block; height:0; clear:both;
+visibility:hidden;
+}
+*html .clearfix{
+ height:1%;
+}
+*+html .clearfix{
+ height:1%;
+}
+.f_l{float:left} 
+.f_r{float:right;}
+.t_c{ text-align:center;}
+.pointer { cursor: pointer}
+.blank{height:1px; line-height:8px; clear:both; visibility:hidden;}
+.blank14{height:10px; line-height:8px; clear:both; visibility:hidden;}
+.blank20{height:20px; line-height:8px; clear:both; visibility:hidden;}
+.wrap{ width:1000px; margin:0 auto;}
+.top{ height:120px; width:1000px; float:left; background:url(../images/top_bg.png) no-repeat 880px 5px;}
+.logo{ float:left; width:374px; }
+.banner{ float:right; width:330px; height:120px;  margin-top:30px;}
+.banner i{ display:block; background:url(../images/bord_top.jpg) repeat-x; width:330px; height:5px; }
+.banner b{ display:block; background:url(../images/bord_top.jpg) repeat-x; width:330px; height:5px; margin:1px 0;}
+.banner_con{ float:left; width:330px;}
+.banner_con img{ float:left; margin-right:2px;}
+.nav{ width:1000px; float:left; height:50px; background:url(../images/bord_bottom.jpg) repeat-x 0 46px;}
+.nav_ul{  float:left;}
+.nav_ul .cust{ width:80px;}
+.nav_ul li{width:110px; height:50px; float:left; font-size:12px; padding-left:5px}
+.nav_ul li a{color:#3b3b3b; font-size:15px; text-decoration:none;}
+.nav_ul li a:hover{color:#1d2088;}
+.nav_ul li span{ color:#828282; font-size:8px;}
+.lang { width:150px; float:right; line-height:40px;}
+.lang ul li{ float:left; width:70px; color:#868686; font-weight:400;}
+.lang ul li em{ font-style:normal; padding-left:10px;}
+.lang ul li span a{ color:#e83021; font-weight:400;}
+.content{ width:1000px; height:415px; position:relative;}
+.company{ width:230px; height:350px; position:absolute; left:0; bottom:10px;}
+.company p{ font-size:12px;color:#495f6b; line-height:22px; padding:0 8px; text-indent:2em;}
+.niaolan{ position:absolute; left:488px; top:57px; width:182px; font-size:12px; color:#fff;}
+.zhibiao{position:absolute; left:700px; bottom:20px; width:180px; text-align:left;}
+.zhibiao h4{ font-size:16px; color:#FFF; line-height:20px; padding-left:30px; }
+.zhibiao p{ font-size:8px;color:#abd1f1; width:170px; line-height:16px;}
+.bottom{ height:210px; overflow:hidden; width:1000px; float:left; background:url(../images/bord_top.jpg) repeat-x ;}
+.design{ width:520px; float:left;}
+.design_l{ width:260px; height:210px; float:left;}
+.design_l img{ margin-bottom:5px;}
+.design_l p{ color:#3a3a3a; font-size:12px;}
+.design_r{ float:right; width:260px; background:url(../images/bore_m.png) repeat-y 250px 0;}
+.design_r p{ font-family:Arial, Helvetica, sans-serif; font-size:10px;  color:#6a6868; width:250px; margin-bottom:5px;}
+.design_r ul{ width:235px; height:140px; float:left;}
+.design_r ul li{ float:left; margin-left:5px;}
+.design_m{ float:left; width:270px; background:url(../images/bore_m.png) repeat-y 265px 0; padding-left:2px; }
+.design_m h2{ font-size:18px; color:#f81144; margin-top:8px;}
+.design_m span{ font-size:10px; color:#3a3a3a; margin-bottom:8px; display:block;}
+.design_m p{ color:#3a3a3a; font-size:12px; line-height:18px;}
+.bottom_r{background:url(../images/bore_m.png) repeat-y 200px 0; width:200px; float:right; position:relative;}
+.bottom_r img{ margin-bottom:10px;}
+.blue_font{ font-size:12px; color:#fff; position:absolute; top:20px; left:15px; width:160px;}
+.red_font{ font-size:12px; color:#fff; position:absolute; bottom:25px; left:15px; width:160px;}
+.footer{ width:1000px;}
+.footer i{ display:block; background:url(../images/bord_top.jpg) repeat-x; height:5px; width:1000px;}
+.footer b{ display:block; background:url(../images/bord_bottom.jpg) repeat-x; height:5px; width:1000px;}
+.footer p{ font-size:12px; color:#787878; line-height:24px;}
+
+
